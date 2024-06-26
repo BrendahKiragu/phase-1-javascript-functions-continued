@@ -9,9 +9,9 @@ function mondayWork (to_do='go to the office'){
 //console.log(mondayWork())
 
 function wrapAdjective (flair = '*'){
-  return function (tam ='special'){
-    return `You are ${flair}${tam}${flair}!`
+  return function (adjective ='special'){
+    return `You are ${flair}${adjective}${flair}!`
   }
 }
-wrapAdjective()('*')
+//wrapAdjective()('*')
 //console.log(wrapAdjective())
